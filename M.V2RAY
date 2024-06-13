@@ -9,17 +9,7 @@
                 "geosite:category-ads-all": "127.0.0.1",
                 "geosite:category-ads-ir": "127.0.0.1"
             },
-            "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:category-ir",
-                        "domain:.ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:ir"
-                    ],
+            "serve
                     "port": 53
                 }
             ],
@@ -102,22 +92,7 @@
                         "headers": {
                             "Host": "6957f8c1.Bpb-5lz.pAGeS.DeV"
                         },
-                        "path": "/KJQ7G6njNX52NUAy?ed=2560"
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "tag": "fragment",
-                "protocol": "freedom",
-                "settings": {
-                    "fragment": {
-                        "packets": "tlshello",
-                        "length": "10-30",
-                        "interval": "1-2"
-                    }
-                },
-                "streamSettings": {
+                   
                     "sockopt": {
                         "tcpKeepAliveIdle": 100,
                         "tcpNoDelay": true
@@ -162,22 +137,7 @@
             "rules": [
                 {
                     "ip": [
-                        "8.8.8.8"
-                    ],
-                    "outboundTag": "direct",
-                    "port": "53",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "socks-in",
-                        "http-in"
-                    ],
-                    "type": "field",
-                    "port": "53",
-                    "outboundTag": "dns-out",
-                    "enabled": true
-                },
+                
                 {
                     "domain": [
                         "geosite:category-ir",
@@ -248,26 +208,7 @@
                 "sniffing": {
                     "destOverride": [
                         "http",
-                        "tls"
-                    ],
-                    "enabled": true
-                },
-                "tag": "socks-in"
-            },
-            {
-                "port": 10809,
-                "protocol": "http",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true,
-                    "userLevel": 8
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true
+     
                 },
                 "tag": "http-in"
             }
@@ -356,20 +297,7 @@
         ],
         "policy": {
             "levels": {
-                "8": {
-                    "connIdle": 300,
-                    "downlinkOnly": 1,
-                    "handshake": 4,
-                    "uplinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
+                "8": 
             "rules": [
                 {
                     "ip": [
@@ -447,22 +375,6 @@
             ],
             "tag": "dns"
         },
-        "inbounds": [
-            {
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true,
-                    "userLevel": 8
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true
-                },
                 "tag": "socks-in"
             },
             {
