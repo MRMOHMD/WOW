@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "💠MOHMD01",
+        "remarks": "💠MOHMD.01",
         "log": {
             "loglevel": "warning"
         },
@@ -211,7 +211,7 @@
         "stats": {}
     },
     {
-        "remarks": "💠MOHMD02",
+        "remarks": "💠MOHMD.02",
         "log": {
             "loglevel": "warning"
         },
@@ -422,7 +422,7 @@
         "stats": {}
     },
     {
-        "remarks": "💠MOHMD03",
+        "remarks": "💠MOHMD.03",
         "log": {
             "loglevel": "warning"
         },
@@ -633,7 +633,7 @@
         "stats": {}
     },
     {
-        "remarks": "💠MOHMD04",
+        "remarks": "💠MOHMD.04",
         "log": {
             "loglevel": "warning"
         },
@@ -844,7 +844,7 @@
         "stats": {}
     },
     {
-        "remarks": "💠MOHMD01-V6",
+        "remarks": "💠MOHMD.01-V6",
         "log": {
             "loglevel": "warning"
         },
@@ -1055,7 +1055,7 @@
         "stats": {}
     },
     {
-        "remarks": "💠MOHMD02-V6",
+        "remarks": "💠MOHMD.02-V6",
         "log": {
             "loglevel": "warning"
         },
