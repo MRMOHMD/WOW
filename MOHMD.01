@@ -3,9 +3,9 @@
   [
     {
       "type": "wireguard",
-      "tag": "Warp-IR",
-      "server": "162.159.192.47",
-      "server_port": 4177,
+      "tag": "Warp-IR1",
+      "server": "188.114.96.156",
+      "server_port": 854,
 
       "local_address": [
         "172.16.0.2/32",
@@ -22,8 +22,8 @@
       "type": "wireguard",
       "tag": "Warp-Main",
       "detour": "Warp-IR",
-      "server": "162.159.192.47",
-      "server_port": 4177,
+      "server": "188.114.96.156",
+      "server_port": 854,
       
       "local_address": [
           "172.16.0.2/32",
