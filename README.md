@@ -1,11 +1,11 @@
 #Warp on Warp (MOBILE)
 1) IP/Ports of the Cloudflare Warp (termux)-scanner
 ```
-2) Termux
-bash <(curl -fsSL https://raw.githubusercontent.com/bepass-org/warp-plus/master/termux.sh)
-
-```
 curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh && chmod +x endip.sh && ./endip.sh
+```
+2) Termux
+```
+bash <(curl -fsSL https://raw.githubusercontent.com/bepass-org/warp-plus/master/termux.sh)
 ```
 3) Cloudflare Account
 ```
