@@ -21,7 +21,7 @@
     {
       "type": "wireguard",
       "tag": "Warp-Main",
-      "detour": "Warp-IR",
+      "detour": "Warp-IR1",
       "server": "188.114.96.156",
       "server_port": 854,
       
