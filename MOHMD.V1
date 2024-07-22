@@ -1,7 +1,19 @@
 {
   "route": {
     "geoip": {
-     "outbound": "dns-out"
+      "path": "geo-assets\\\\sagernet-sing-geoip-geoip.db"
+    },
+    "geosite": {
+      "path": "geo-assets\\\\sagernet-sing-geosite-geosite.db"
+    },
+    "rules": [
+      {
+        "inbound": "dns-in",
+        "outbound": "dns-out"
+      },
+      {
+        "port": 53,
+        "outbound": "dns-out"
       },
       {
         "clash_mode": "Direct",
@@ -45,7 +57,15 @@
       ],
       "private_key": "MM4ialxVU/3oHiBho2QGtHXjTzdQECu5maUO47ylink=",
       "server": "162.159.193.10",
-
+      "server_port": 2408,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [
+        57,
+        71,
+        207
+      ],
+      "mtu": 900,
+      "fake_packets": "5-10"
     },
     {
       "type": "wireguard",
